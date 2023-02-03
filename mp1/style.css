@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.l-item{
+  width: 200px;
+  padding: 10px 60px;
+}
+.l-img{
+    width: 100%;
+    border-radius: 50px;
+}
+.nav-item{
+    padding: 20px;
+}
+.navbar{
+    padding: 0px;
+}
+.container-fluid{
+    background-color: #850000;
+}
+.navbar-nav{
+    font-weight: bold;
+    font-size: large;
+}
+#carouselExampleIndicators{
+    margin-top: 5px;
+}
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+.text-content{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 50px;
+    margin-top: 5rem;
+    margin-bottom: 4.5rem   ;
+}
+.text-content h2{
+    font-weight: bold;
+    font-size: xx-large ;
+}
+.text-content h3{
+    font-size: large;
+        text-shadow: 0px 6px 4px #3D0000 ;
+}
+.storeImg{
+    display: block;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 40%;
+}
+.content{
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin: auto;
+}
+.content p{
+    text-shadow: 0px 6px 4px #3D0000 ;
+    padding: 20px;
+}
+.visitUs{
+    font-weight: bold;
+    border: 2px solid #0000;
+    background-color: #950101;
+}
+.visitUs:hover{
+    border: 2px solid #00000;
+    background-color: #FF0000;
+    transition:.6s;
+}
