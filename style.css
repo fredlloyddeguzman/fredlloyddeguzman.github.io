@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
 }
 /*index style*/
 .l-item{
@@ -20,7 +20,7 @@
 .navbar{
     padding: 0px;
 }
-.container-fluid{
+.navbar{
     background-color: #f01616;
 }
 .navbar-nav{
@@ -30,8 +30,15 @@
 .nav-item:hover{
     text-decoration: underline .15em;
 }
-#carouselExampleIndicators{
-    margin-top: 5px;
+.dropdown-menu, .dropdown-item{
+    color: black;
+    background-color: #f01616;
+    font-weight: bold;
+}
+.dropdown-item:hover{
+    text-decoration: underline .15em;
+    color: black;
+    background-color: #f01616;
 }
 .c-item{
     height: 46rem;
@@ -99,10 +106,10 @@
     font-size: 100px;
     line-height: 75px;
     margin-bottom: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .carousel-caption .btn{
-    align-items: start;
+    font-weight: bold;
     background-color: #f01616;
     border: 2px solid black;
 }
@@ -110,16 +117,14 @@
     background-color: #950101 ;
     transition: .6s;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    display: none;
-}
 .card-footer{
     display: flex;
     height: 5rempx;
     padding: 20px 30px;
-    justify-content: space-between;
     background-color: #f01616;
     color: black;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .footer-logo{
     border-radius: 50%;
@@ -127,41 +132,90 @@
     max-width: fit-content;
     object-fit: cover;
 }
+.list-unstyled, .soc-icon{
+    text-align: center;
+}
 .list-unstyled li a{
     text-decoration: none;
     list-style: none;
     color: black;
 }
+.list-unstyled li a:hover{
+    text-decoration: underline;
+}
 i.fa-brands{
+    font-size: xxx-large;
+    margin: 0 10px;
     width: 50px;
     height: 50px;
     color: black;
 }   
+.footer-copyright{
+    padding: 20px;
+}
 /*=========menu style==============*/
 .menu-container h3{
    font-weight: bold;
    text-decoration: underline;
    text-shadow: 0px 6px 4px #f01616 ;
-}
-.menu-img{
-    width: 50rem;
-    height: 10rem;
+   max-width: 100%;
+   text-align: center;
 }
 .card{
-        margin: 10px;
+    margin: 10px;
     align-items: center;
+    background-color: whitesmoke;
+    padding: 0;
 }
 .card h5, .card h6{
     text-align: center;
     font-weight: bolder;
 }
 .card img{
-    max-width: 100px;  
-    min-height: 150px;
+    max-width: 140px;  
+    min-height: 180px;
     object-fit: cover;
 }
 .menu-btn{
     border: 1px solid black;
     background-color: #f01616;
     font-weight: bold;
+}
+/*======About Section===========*/
+.about-img{
+    width: 100%;
+    height: 30rem ;
+    object-fit: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(60%);
+}
+.about-content{
+    text-align: center;
+    background-color: rgba(255, 1, 1, .3);
+    margin: 20px 0;
+    padding: 20px;
+}
+.about-content h3{
+    font-weight: bold;
+}
+.about-content p{
+    text-align: justify;
+    padding: 10px 0;
+}
+.about-content span{
+    color: #f01616;
+}
+.carousel-item ul{
+    display: flex;
+    padding: 50px;
+}
+.carousel-item ul li{
+    margin:20px
+}
+.carousel-inner{
+    background-color: #f01616;s
+}
+.carousel-item ul li img{
+    width: 100%;
+    height: 100%;
 }
