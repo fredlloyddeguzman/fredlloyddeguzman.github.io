@@ -34,6 +34,7 @@ body{
 }
 .nav-item:hover{
     text-decoration: underline .15em;
+    
 }
 .dropdown-menu, .dropdown-item{
     color: black;
@@ -200,19 +201,28 @@ body{
 .about-history img{
     width: 100%;
     padding: 20px;
-    object-fit: cover;
+}
+.abt-content-img{
+    width: 100%;
+}
+.abt-container-img{
+    margin: 0 20px;
+    width: 100%;
+    align-self: center;
+}
+.about-history p{
+    font-weight: bold;
+    word-spacing: 10px;
 }
 /*======footer==========*/
 .card-footer{
     display: flex;
-    height: 100%;
     padding: 20px 30px;
     background-color: #f01616;
     background-position: bottom;
     color: black;
     justify-content: space-evenly;
-    align-items: center;
-    z-index: 100;
+
 }
 .footer-logo{
     border-radius: 50%;
@@ -220,16 +230,17 @@ body{
     max-width: fit-content;
     object-fit: cover;
 }
-.list-unstyled, .soc-icon{
+.list-unstyled, .soc-icon .myName a{
     text-align: center;
+    font-weight: bold;
 }
-.list-unstyled li a{
+.list-unstyled li a, .myName a{
     text-decoration: none;
     list-style: none;
     color: black;
 }
-.list-unstyled li a:hover{
-    text-decoration: underline;
+.myName a:hover, .list-unstyled li a:hover{
+    text-decoration: underline .15em;
 }
 i.fa-brands{
     font-size: xxx-large;
@@ -241,6 +252,10 @@ i.fa-brands{
 .footer-copyright{
     padding: 20px;
 }
+.copyright{
+    justify-content: space-between;
+}
+/* Career  */
 .career{
     text-align: center;
     width: 100%;
