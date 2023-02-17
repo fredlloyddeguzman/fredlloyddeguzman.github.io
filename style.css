@@ -1,14 +1,16 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
+    font-family: 'Joti One', cursive;
 }
 body{
     background-color: #E8F9FD;
 }
 .active{
     text-decoration: underline .15em;
+}
+.wrapper{
+    margin-top: 7.5rem;
 }
 /*index style*/
 .l-item{
@@ -24,9 +26,13 @@ body{
     padding: 20px;
     margin: 0 30px;
 }
-
 .navbar{
     background-color: #CF0A0A;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 .navbar-nav{
     font-weight:bold;
@@ -82,7 +88,6 @@ body{
 }
 .content{
     text-align: center;
-    font-weight: bold;
     word-spacing: 5px;
     margin: auto;
     padding: 80px 0;
@@ -137,11 +142,9 @@ body{
    text-align: center;
 }
 .card{
-    border: none;
     margin: 10px;
     align-items: center;
     background-color: #EEEEEE;
-    padding: 0;
 }
 .card h5, .card h6{
     text-align: center;
@@ -211,7 +214,6 @@ body{
     align-self: center;
 }
 .about-history p{
-    font-weight: bold;
     word-spacing: 10px;
 }
 /*======footer==========*/
@@ -222,7 +224,6 @@ body{
     background-position: bottom;
     color: black;
     justify-content: space-evenly;
-
 }
 .footer-logo{
     border-radius: 50%;
@@ -232,7 +233,6 @@ body{
 }
 .list-unstyled, .soc-icon .myName a{
     text-align: center;
-    font-weight: bold;
 }
 .list-unstyled li a, .myName a{
     text-decoration: none;

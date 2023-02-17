@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+    <!--Link Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+    <!--page Icon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+    <!--Link Animations-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Link Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Link Style-->
     <link rel="stylesheet" href="style.css">
+    <!--Page Title-->
     <title>Octo-Takoyaki</title>
 </head>
 <body>
   <!--navbar-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <button class="btn l-item"><a href="index.html"><img class="l-img" src="assets/img/logo.png" alt=""></a></button>
+          <a href="index.html" class="btn l-item"><img class="l-img" src="assets/img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="navbar-toggler-icon"></i>
           </button>
@@ -50,36 +60,36 @@
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div><img class="about-img" src="assets/img/about.jpg" alt=""></div>
-        <div class="d-lg-flex about-history">
+      <div class="wrapper container">
+        <div ><img data-aos="fade-up" class="about-img" src="assets/img/about.jpg" alt=""></div>
+        <div class="d-lg-flex about-history mt-5">
           <div>
-          <h3 class="text-center"><span class="type">Octo-Takoyaki </span><br>Philippines</h3>
-          <p>Octo Takoyaki start on July 2022, it started in Quezon City, Philippines. Due to high demand of customer, the store expand and different branch built accross the Central Luzon and Calabarzon. It  continue to grow as year goes by. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed sint aspernatur dolorem ex, officia, expedita porro repellendus dicta assumenda commodi ipsam repudiandae consectetur earum. Praesentium sit, necessitatibus quod dolor molestias incidunt illum voluptate ex consectetur accusantium asperiores error, laborum deleniti neque placeat numquam cumque modi repudiandae ratione, quasi beatae?</p>
+          <h3 data-aos="fade-up" class="text-center"><span class="type">Octo-Takoyaki </span><br>Philippines</h3>
+          <p data-aos="fade-up">Octo Takoyaki start on July 2022, it started in Quezon City, Philippines. Due to high demand of customer, the store expand and different branch built accross the Central Luzon and Calabarzon. It  continue to grow as year goes by. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sed sint aspernatur dolorem ex, officia, expedita porro repellendus dicta assumenda commodi ipsam repudiandae consectetur earum. Praesentium sit, necessitatibus quod dolor molestias incidunt illum voluptate ex consectetur accusantium asperiores error, laborum deleniti neque placeat numquam cumque modi repudiandae ratione, quasi beatae?</p>
         </div>
-        <div class="abt-container-img"><img class=" abt-content-img" src="assets/img/1.png" alt=""></div>
+        <div data-aos="fade-up" class="abt-container-img"><img class=" abt-content-img" src="assets/img/1.png" alt=""></div>
       </div>
       </div>
-      <footer class="card-footer row align-items-center">
-        <img class="col-lg-1 col-md-12 col-sm-6 footer-logo" src="assets/img/logo.png" alt="logo">
-          <ul class="col-lg-2 col-md-12 col-sm-6 list-unstyled text-lg-start">
+      <footer class="card-footer row align-items-center ">
+        <div class="col-lg-4 col-md-12 col-sm-6 text-center"><img class="footer-logo" src="assets/img/logo.png" alt="logo"></div>
+          <ul class="col-lg-4 col-md-12 col-sm-6 list-unstyled text-center">
             <li><a href="#">Terms and Condition</a></li>
             <li><a href="#">Privacy and Policy</a></li>
             <li><a href="career.html">Opportunities</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="menu.html">Our Food</a></li>
           </ul>
-          <div class="soc-icon col-lg-2 col-md-6 col-sm-6 text-lg-start">
+          <div class="soc-icon col-lg-4 col-md-12 col-sm-6 text-center ">
             <h4>Follow us on</h4>
             <a href="https://www.facebook.com/octotakoyakimain" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/octo.takoyaki/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
-          <div class="text-start mx-5 d-flex copyright">
+          <div class="text-lg-center mx-5 d-flex copyright">
             <p>©2022 Octo-Takoyaki. All rights reserved.</p>
             <p>Designed by: <span class="myName"><a href="https://www.facebook.com/fredlloyd.deguzman" target="_blank">Fred Lloyd De Guzman</a></span></p>
         </div>
       </footer>
-      <script src="assets/js/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script>AOS.init();</script>
 </body>
 </html>
