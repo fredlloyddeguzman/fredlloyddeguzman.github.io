@@ -11,3 +11,14 @@ var slideIndex = 0;
     setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
   showSlides();
+  
+  function rotateImage(val) {
+    let image = document.getElementById("image");
+    if (image.style.webkitAnimationPlayState == "running") {
+      image.style.webkitAnimationPlayState = "paused";
+      val.innerHTML="Spin";
+    } else {
+      image.style.webkitAnimationPlayState = "running";
+      val.innerHTML="Stop";
+    }
+  }

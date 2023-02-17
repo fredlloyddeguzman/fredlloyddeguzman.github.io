@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="assets/img/logo.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -19,7 +20,7 @@
         <div class="container-fluid">
             <button class="btn l-item"><img class="l-img" src="assets/img/logo.png" alt=""></button>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="navbar-toggler-icon"></i>
           </button>
           <div class="container-collapse collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -28,20 +29,19 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Order
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Order
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Delivery</a></li>
+                    <li><a class="dropdown-item" href="#">Pick-Up</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">How to Order</a></li>
+                  </ul>
+                </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Store</a>
+                <a class="nav-link" href="career.html">Career</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
@@ -61,7 +61,7 @@
           <div class="c-item carousel-item active ">
             <img src="assets/img/4.jpg" class="c-img d-block w-100" alt="c-img">
             <div class="carousel-caption d-none d-sm-block">
-              <h1>Takoyaki<br> And<br> Ramen<br> Restaurant</h1>
+              <h1><i class="red">Takoyaki</i><br> And<br> <i class="red">Ramen</i><br>Restaurant</h1>
               <button class="btn d-block" >ORDER NOW</button>
             </div>
 
@@ -69,14 +69,14 @@
           <div class="c-item carousel-item">
             <img src="assets/img/5.jpg" class="c-img d-block w-100" alt="c-img">
             <div class="carousel-caption d-none d-sm-block">
-              <h1>Takoyaki<br> And<br> Ramen<br> Restaurant</h1>
+              <h1><i class="red">Takoyaki</i><br> And<br> <i class="red">Ramen</i><br> Restaurant</h1>
               <button class="btn d-block">ORDER NOW</button>
             </div>
           </div>
           <div class="c-item carousel-item">
             <img src="assets/img/hd.jpg" class="c-img d-block w-100" alt="c-img">
             <div class="carousel-caption d-none d-sm-block">
-              <h1>Takoyaki<br> And<br> Ramen<br> Restaurant</h1>
+              <h1><i class="red">Takoyaki</i><br> And<br> <i class="red">Ramen</i><br> Restaurant</h1>
               <button class="btn d-block">ORDER NOW</button>
             </div>
           </div>
@@ -84,7 +84,7 @@
  
       </div>
       <section class="text-content">
-        <h2>Who is Octo-Takoyaki?</h2>
+        <h2>Who is <span class="type">Octo-Takoyaki?</span></h2>
         <h3>The Octo-Takoyaki is a japanese restaurant, food stall based in different location in Philippines. It serve also a Ramen with varaint flavor depends on your taste buds Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ducimus ratione, deserunt rem quisquam quod asperiores autem sed odit aperiam ipsam porro, maxime rerum. In sed distinctio autem voluptates eligendi.</h3>
       </section>
       <div class="contianer-fluid d-md-flex">
@@ -93,25 +93,26 @@
             <h2>OUR LOCATION</h2>
             <p>Our different location serve 1:00 PM to 9:00 PM Saturday to Sunday.
             </p>
-            <button class="visitUs btn"><span>Visit Us</span></button>
+            <button class="visitUs btn">Visit Us</button>
         </div>
       </div>
+      <!--Footer-->
       <footer class="card-footer row align-items-center">
         <img class="col-lg-1 col-md-12 col-sm-6 footer-logo" src="assets/img/logo.png" alt="logo">
           <ul class="col-lg-2 col-md-12 col-sm-6 list-unstyled">
             <li><a href="#">Privacy and Policy</a></li>
-            <li><a href="#">Our Food</a></li>
+            <li><a href="menu.html">Our Food</a></li>
             <li><a href="#">Terms and Condition</a></li>
             <li><a href="#">Opportunities</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about">About Us</a></li>
           </ul>
           <div class="soc-icon col-lg-2 col-md-6 col-sm-6">
             <h4>Follow us on</h4>
             <a href="https://www.facebook.com/octotakoyakimain" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/octo.takoyaki/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
-        <div class="text-lg-start text-md-center text-sm-center">
-            <p">©2022 Octo-Takoyaki. All rights reserved.</p>
+        <div class="text-start mx-5">
+            <p>©2022 Octo-Takoyaki. All rights reserved.</p>
         </div>
       </footer>
       <script src="assets/js/script.js"></script>
